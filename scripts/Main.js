@@ -1,5 +1,5 @@
 
-define("EmersonTest/scripts/Main", [
+define("Test-Widget/scripts/Main", [
     "DS/PlatformAPI/PlatformAPI",
     "DS/WAFData/WAFData",
     "DS/DataDragAndDrop/DataDragAndDrop"],
