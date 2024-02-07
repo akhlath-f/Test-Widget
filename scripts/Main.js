@@ -53,7 +53,7 @@ define("Test-Widget/scripts/Main", [
 
                             if (lt) {
                                 postLoginURL += "?lt=" + lt + "&username=" + username + "&password=" + password;
-								 console.log("-------Hello Test-----------"+postLoginURL)
+								 console.log(postLoginURL)
                                 WAFData.proxifiedRequest(postLoginURL, {
                                     method: "Post",
                                     redirect: 'manual',
